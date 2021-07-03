@@ -21,16 +21,19 @@ body {
   background-color: #f1f9f7;
   padding: 2rem 0;
 }
-#benefits{
-    background-color: #f1f9f7;
-    padding: 2rem;
-}
 #features {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
   height: 80vh;
   background-color: FAFFFD;
 }
+#benefits {
+  background-color: #f1f9f7;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
 /* HEADER */
 .header-container {
   max-width: 90%;
@@ -136,12 +139,10 @@ body {
 .features-wrapper {
   display: flex;
   align-items: center;
-
 }
 .details-area,
 .f-text-area {
   flex: 1;
-
 }
 
 .items {
@@ -183,6 +184,44 @@ body {
   width: 85px;
   height: 85px;
 }
+/* BENEFITS */
+.b-card-area,
+.b-text-area {
+  flex: 1;
+}
+.b-sub-text{
+    max-width: 80%;
+}
+.b-card {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: 0px 7px 46px -15px rgba(35, 115, 92, 0.31);
+  border-radius: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.b-card-img{
+    width: 90px;
+    height: 90px;
+}
+.b-card-text{
+    color: #938040;
+    font-size: 24px;
+    letter-spacing: -0.025em;
+    font-weight: 700;
+}
+.b-card-det{
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 90%;
+}
+
+
+
 @media only screen and (max-width: 1200px) {
   .hero-text {
     font-size: 70px;
