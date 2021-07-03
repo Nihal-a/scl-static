@@ -100,4 +100,31 @@ font-weight: 500;
     .button-area{
         display: none;
     }
+    .hero-wrapper{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .text-area{
+        order: 2;
+        width: 95%;
+        text-align: center;
+    }
+    .img-area{
+        order: 1;
+        width: 95%;
+    }
+    .hero-text{
+        font-size: 45px;
+    }
+    .hero-sub-text{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 335px){
+    .hero-text{
+        font-size: 35px;
+    }
+    .hero-sub-text{
+        font-size: 14px;
+    }
 }
