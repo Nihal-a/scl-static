@@ -21,8 +21,14 @@ body {
   background-color: #f1f9f7;
   padding: 2rem 0;
 }
+#benefits{
+    background-color: #f1f9f7;
+    padding: 2rem;
+}
 #features {
-  height: 100vh;
+    display: flex;
+    align-items: center;
+  height: 80vh;
   background-color: FAFFFD;
 }
 /* HEADER */
@@ -130,12 +136,12 @@ body {
 .features-wrapper {
   display: flex;
   align-items: center;
-  margin-top: 4rem;
+
 }
 .details-area,
 .f-text-area {
   flex: 1;
-  margin-top: 2rem;
+
 }
 
 .items {
