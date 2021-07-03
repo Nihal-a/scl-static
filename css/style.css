@@ -42,6 +42,7 @@ body{
     color: var(--primary-color);
 }
 /* HOME */
+
 .hero-wrapper{
     display: flex;
     justify-content: space-between;
@@ -52,10 +53,13 @@ body{
     width: 50%;
 }
 .hero-text{
-    font-size: 76px;
+    font-size: 80px;
     font-weight: 800;
     letter-spacing: -2px;
     color: #2D2D2D;
+}
+.text-area{
+    width: 50%;
 }
 .hero-sub-text{
     font-size: 24px;
@@ -68,6 +72,29 @@ body{
 height: 54px;
 font-size: 25px;
 font-weight: 500;
+}
+@media only screen and (max-width: 1200px){
+    .hero-text{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .hero-text{
+        font-size: 66px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .hero-text{
+        font-size: 50px;
+    }
+    .hero-sub-text{
+        font-size: 18px;
+    }
+    .hero-cta{
+        width: 130px;
+        height: 38px;
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width: 768px){
     .button-area{
