@@ -24,14 +24,16 @@ body {
 #features {
   display: flex;
   align-items: center;
-  height: 80vh;
-  background-color: FAFFFD;
+  height: max-content;
+  background-color: #FAFFFD;
+  padding: 1rem 0;
 }
 #benefits {
   background-color: #f1f9f7;
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: max-content;
+  padding: 1rem 0;
 }
 
 /* HEADER */
@@ -189,8 +191,8 @@ body {
 .b-text-area {
   flex: 1;
 }
-.b-sub-text{
-    max-width: 80%;
+.b-sub-text {
+  max-width: 80%;
 }
 .b-card {
   width: 250px;
@@ -204,23 +206,21 @@ body {
   justify-content: center;
   text-align: center;
 }
-.b-card-img{
-    width: 90px;
-    height: 90px;
+.b-card-img {
+  width: 90px;
+  height: 90px;
 }
-.b-card-text{
-    color: #938040;
-    font-size: 24px;
-    letter-spacing: -0.025em;
-    font-weight: 700;
+.b-card-text {
+  color: #938040;
+  font-size: 24px;
+  letter-spacing: -0.025em;
+  font-weight: 700;
 }
-.b-card-det{
-    font-size: 14px;
-    font-weight: 400;
-    max-width: 90%;
+.b-card-det {
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 90%;
 }
-
-
 
 @media only screen and (max-width: 1200px) {
   .hero-text {
@@ -236,6 +236,12 @@ body {
     font-size: 20px;
     margin-top: 1rem;
     letter-spacing: -0.035em;
+  }
+  .b-card-area{
+      flex: 1.2;
+  }
+  .b-text-area {
+    flex: .8;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -264,6 +270,16 @@ body {
   .details-area,
   .f-text-area {
     text-align: center;
+  }
+  .b-card-area,
+  .b-sub-text{
+      text-align: center;
+  }
+  .two-card-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
   }
 }
 @media only screen and (max-width: 768px) {
