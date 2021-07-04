@@ -386,6 +386,9 @@ body {
   .sb-img-area {
     margin: 2rem 0;
   }
+  .mp-wrapper{
+      flex-direction: column;
+  }
 }
 @media only screen and (max-width: 768px) {
   .button-area {
@@ -420,6 +423,21 @@ body {
     font-size: 15px;
     margin-top: 1rem;
     letter-spacing: -0.035em;
+  }
+  .hide{
+      display: none;
+  }
+  .mp-list-area{
+      width: 100%;
+  }
+  .mp-item{
+      flex-direction: column;
+    text-align: center;
+  }
+  .mp-heading{
+      font-size: 23px;
+      margin: 2rem 0;
+      text-align: center;
   }
 }
 @media only screen and (max-width: 600px) {
