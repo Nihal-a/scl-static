@@ -59,6 +59,10 @@ body {
   padding: 2rem 0;
   padding-bottom: 5rem;
 }
+#footer{
+    background-color: var(--primary-color);
+    padding: 3rem 0;
+}
 /* HEADER */
 .header-container {
   max-width: 90%;
@@ -419,6 +423,37 @@ body {
     float: right;
     margin-top: 1rem;
 }
+
+/* FOOTER */
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    text-align: right;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.logo2{
+    width: 202px;
+    height: 54px;
+}
+.hr{
+    margin-top: 7rem;
+}
+.copyright{
+    color: rgba(148, 215, 195, 0.28);
+    font-size: 17px;
+}
+.copy-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 
 
 @media only screen and (max-width: 1200px) {
