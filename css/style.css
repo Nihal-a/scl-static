@@ -43,6 +43,10 @@ body {
     background-color: var(--primary-color);
     padding: 2rem 0;
 }
+#subjects{
+    background-color: var(--primary-color);
+    padding: 4rem 0;
+}
 /* HEADER */
 .header-container {
   max-width: 90%;
@@ -316,6 +320,30 @@ body {
     padding: 1rem;
 }
 
+/* SUBJECT */
+.subject-card-wrapper{
+    display: flex;
+}
+.subject-card{
+    width: 380px;
+    height: 660px;
+    background-color: #fff;
+    box-shadow: 0px 4px 40px -3px rgba(22, 68, 55, 0.23);
+    border-radius: 28px;
+    overflow: hidden;
+    margin: 0 .4rem;
+}
+.sub-details{
+    color: #434343;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 19px;
+}
+.sub-heading{
+    text-align: center;
+}
 
 
 
