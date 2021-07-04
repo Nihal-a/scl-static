@@ -439,6 +439,7 @@ body {
       margin: 2rem 0;
       text-align: center;
   }
+  
 }
 @media only screen and (max-width: 600px) {
   .f-text {
@@ -470,6 +471,9 @@ body {
   }
   .sb-img-area {
     align-items: center;
+  }
+  .mp-item-text{
+      font-size: 13px;
   }
 }
 @media only screen and (max-width: 335px) {
