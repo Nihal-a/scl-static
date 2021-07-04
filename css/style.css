@@ -366,7 +366,7 @@ body {
   flex-direction: row;
   padding: 8px;
 }
-.details-area {
+.ctn-details-area {
   height: 100%;
   background-color: var(--primary-color);
   border-radius: 20px;
@@ -380,6 +380,7 @@ body {
 .form-area {
   height: 100%;
   flex: 1.6;
+  padding: 50px;
 }
 .cnt-heading {
   font-size: 40px;
@@ -393,6 +394,28 @@ body {
     display: flex;
     align-items: flex-start;
     margin: 1rem 0;
+}
+.form-items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.label{
+    color: #9395AC;
+    font-size: 20px;
+}
+.input{
+    outline:0;
+    border: 0;
+    border-bottom: 1px solid #B4B4B4;
+    font-size: 18px;
+}
+::placeholder{
+    color: rgba(147, 149, 172, 0.53);
+}
+.cnt-btn{
+    float: right;
+    margin-top: 1rem;
 }
 
 
