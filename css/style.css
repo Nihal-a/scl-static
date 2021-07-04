@@ -39,13 +39,13 @@ body {
   background-color: #fafffd;
   padding: 1rem 0;
 }
-#major-prog{
-    background-color: var(--primary-color);
-    padding: 2rem 0;
+#major-prog {
+  background-color: var(--primary-color);
+  padding: 2rem 0;
 }
-#subjects{
-    background-color: var(--primary-color);
-    padding: 4rem 0;
+#subjects {
+  background-color: var(--primary-color);
+  padding: 4rem 0;
 }
 /* HEADER */
 .header-container {
@@ -287,66 +287,63 @@ body {
 }
 
 /* MP SECTION */
-.mp-img{
-    width: 530px;
-    height: 430px;
+.mp-img {
+  width: 530px;
+  height: 430px;
 }
-.mp-icon{
-    width: 60px;
-    height: 60px;
+.mp-icon {
+  width: 60px;
+  height: 60px;
 }
-.mp-item{
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    align-items: center;
+.mp-item {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
 }
-.mp-item-text{
-    font-size: 16px;
-    color: #fff;
-    margin-left: 1rem;
-    line-height: 22px;
-    margin-top: 1rem;
+.mp-item-text {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 1rem;
+  line-height: 22px;
+  margin-top: 1rem;
 }
-.mp-wrapper{
-    display: flex;
+.mp-wrapper {
+  display: flex;
 }
-.mp-heading{
-    color: #fff;
-    font-weight: 700;
-    font-size: 40px;
+.mp-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
 }
-.mp-list-area{
-    padding: 1rem;
+.mp-list-area {
+  padding: 1rem;
 }
 
 /* SUBJECT */
-.subject-card-wrapper{
-    display: flex;
+.subject-card-wrapper {
+  display: flex;
 }
-.subject-card{
-    width: 380px;
-    height: 660px;
-    background-color: #fff;
-    box-shadow: 0px 4px 40px -3px rgba(22, 68, 55, 0.23);
-    border-radius: 28px;
-    overflow: hidden;
-    margin: 0 .4rem;
+.subject-card {
+  width: 380px;
+  height: 660px;
+  background-color: #fff;
+  box-shadow: 0px 4px 40px -3px rgba(22, 68, 55, 0.23);
+  border-radius: 28px;
+  overflow: hidden;
+  margin: 0 0.4rem;
 }
-.sub-details{
-    color: #434343;
-    padding: 0 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-size: 19px;
+.sub-details {
+  color: #434343;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 19px;
 }
-.sub-heading{
-    text-align: center;
+.sub-heading {
+  text-align: center;
 }
-
-
-
 
 @media only screen and (max-width: 1200px) {
   .hero-text {
@@ -369,12 +366,39 @@ body {
   .b-text-area {
     flex: 0.8;
   }
+  .subject-card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .subject-card {
+    width: 220px;
+    height: 360px;
+    background-color: #fff;
+    box-shadow: 0px 4px 40px -3px rgba(22, 68, 55, 0.23);
+    border-radius: 28px;
+    overflow: hidden;
+    margin: 0 0.4rem;
+  }
+  .sub-details {
+    color: #434343;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 19px;
+  }
+  .sub-heading {
+    text-align: center;
+  }
 }
+
 @media only screen and (max-width: 1024px) {
   .hero-text {
     font-size: 66px;
   }
 }
+
 @media only screen and (max-width: 992px) {
   .hero-text {
     font-size: 50px;
@@ -414,10 +438,11 @@ body {
   .sb-img-area {
     margin: 2rem 0;
   }
-  .mp-wrapper{
-      flex-direction: column;
+  .mp-wrapper {
+    flex-direction: column;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .button-area {
     display: none;
@@ -452,23 +477,23 @@ body {
     margin-top: 1rem;
     letter-spacing: -0.035em;
   }
-  .hide{
-      display: none;
+  .hide {
+    display: none;
   }
-  .mp-list-area{
-      width: 100%;
+  .mp-list-area {
+    width: 100%;
   }
-  .mp-item{
-      flex-direction: column;
+  .mp-item {
+    flex-direction: column;
     text-align: center;
   }
-  .mp-heading{
-      font-size: 23px;
-      margin: 2rem 0;
-      text-align: center;
+  .mp-heading {
+    font-size: 23px;
+    margin: 2rem 0;
+    text-align: center;
   }
-  
 }
+
 @media only screen and (max-width: 600px) {
   .f-text {
     font-size: 23px;
@@ -500,10 +525,11 @@ body {
   .sb-img-area {
     align-items: center;
   }
-  .mp-item-text{
-      font-size: 13px;
+  .mp-item-text {
+    font-size: 13px;
   }
 }
+
 @media only screen and (max-width: 335px) {
   .hero-text {
     font-size: 35px;
